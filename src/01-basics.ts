@@ -57,11 +57,14 @@ const colleague3: Colleague = {
     },
 };
 
+interface ColleagueHistory {
+    current: Colleague[];
+    former: Colleague[];
+}
   
-  const colleagues = {
+export const colleagues: ColleagueHistory = {
     current: [colleague1, colleague2, colleague3],
     former: [],
-  };
+};
   
   console.log(colleagues.current[0]);
-  
