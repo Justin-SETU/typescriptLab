@@ -4,19 +4,19 @@ interface Friend {
     age: number;
 }
 
-const friend1 = {
+const friend1: Friend = {
     name: "Justin Jose",
     phone: "0890698776",
     age: 25,
   };
   
-  const friend2 = {
+  const friend2: Friend = {
     name: "Bijo Sabu",
     phone: "086987654",
     age: 27,
   };
   
-  const friends = [friend1, friend2];
+  const friends: Friend[] = [friend1, friend2];
   console.log(friends[1]);
   
   //   -------------------
